@@ -654,6 +654,15 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  max-height: 195px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.img-fluid-modal {
+  max-width: 100%;
+  height: auto;
 }
 
 .img-thumbnail {
@@ -12448,6 +12457,7 @@ html {
   max-width: 25rem;
   border-radius: 0.5rem;
   overflow: hidden;
+  border: 5px solid #555;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption {
